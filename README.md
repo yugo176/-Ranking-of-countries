@@ -1,5 +1,3 @@
-# -Ranking-of-countries
-This project presents the ranking of countries according to population and some comments
+Installer JSON-SERVER : 'npm i -g json-server',
 
-
-Before seeing the comments please create your database and connect to port 3003 with a table named article
+Faire tourner le back : 'json-server src/assets/db.json --port 3003',

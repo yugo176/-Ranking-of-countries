@@ -1,0 +1,51 @@
+.news-container {
+    background-color: rgb(241, 246, 255);
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+        max-width: 400px;
+        margin: 0 auto;
+
+
+        input, textarea {
+
+            padding: 10px;  
+            border: 2px solid #63dbff;
+            border-radius: 4px;
+            box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.22);
+            -webkit-box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.22);
+            -moz-box-shadow: -1px 4px 10px 0px rgba(0,0,0,0.22);
+            margin-bottom: 10px;
+        }
+        textarea{
+            box-sizing: border-box;
+            padding: 10px;
+            min-height: 100px;
+            resize: none;
+        }
+        #envoyer {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color:#6da5ea; 
+            color: white;
+            cursor: pointer;
+            transition: 0.3s ease-in-out;
+        }
+        #envoyer:hover {
+            background-color:#375a86; 
+            color: white;
+        }
+
+        p{
+            color: red;
+        }
+
+    }
+
+}
